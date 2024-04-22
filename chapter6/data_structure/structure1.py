@@ -14,7 +14,7 @@ print(len(t))
 print("--------------------------")
 
 t = (1, 2, 3)
-print(t, type(t))
+print(t, type(t)) #t 값을 출력하고 t의 자료 형식을 알 수 있다.
 t1 = ()
 print(t1, type(t1))
 t1 = t1 + t
