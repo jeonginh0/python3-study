@@ -15,3 +15,4 @@ second_word = "JavaScript"
 print((first_word + second_word).capitalize())
 print(first_word.find("P"))
 print(second_word.isdigit())
+print(first_word.isalpha())
