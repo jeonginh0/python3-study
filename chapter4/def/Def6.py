@@ -15,7 +15,7 @@ def kwargs_test(**kwargs):
 kwargs_test(first = 3, second = 2, third = 5)
 print("--------------------------------------")
 
-#키워드 가변 인수 - 2
+#키워드 가변 인수 - 2 //ㄴ
 kwargs = {"first":3, "second":2, "third":5}
 print("Second value is {second}".format(**kwargs))
 print("Second value is {second}".format(first = 3, second = 2, thire = 5))
