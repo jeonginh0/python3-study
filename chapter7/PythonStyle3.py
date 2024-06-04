@@ -1,7 +1,5 @@
-# Map Reduce
-# 맵 리듀스
+a = [1, 2, 3]
+b = [4, 5, 6]
+c = [7, 8, 9]
 
-ex = [1, 2, 3, 4, 5]
-f = lambda x : x ** 2
-print(list(map(f, ex)))
-#ㄴㄴㄴㄴㄴㄴ
+print([[sum(k), len(k)]for k in zip(a, b, c)])
