@@ -26,4 +26,4 @@ for idx, name in enumerate(name):
     else :
         groot = Groot(name)
         print(groot.language(language[idx]))
-
+# study
