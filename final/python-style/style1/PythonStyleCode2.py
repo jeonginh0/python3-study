@@ -22,6 +22,11 @@ for i in range(10):
 print(result)
 print()
 
+# 리스트 컴프리헤션
+result = [i for i in range(10) if i % 2 == 0]
+print(result)
+print()
+
 # 리스트 컴프리헨션 2
 result = [i if i % 2 == 0 else 10 for i in range(10)]
 print(result)
